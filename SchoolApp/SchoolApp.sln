@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolEntities", "SchoolEnt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolDAL", "SchoolDAL\SchoolDAL.csproj", "{03DD9BD8-07AC-4C66-8088-D37F6017EC81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolBLL", "SchoolBLL\SchoolBLL.csproj", "{C3B8628A-EF1B-4BA4-88FB-F886CFD4190A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{03DD9BD8-07AC-4C66-8088-D37F6017EC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03DD9BD8-07AC-4C66-8088-D37F6017EC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03DD9BD8-07AC-4C66-8088-D37F6017EC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B8628A-EF1B-4BA4-88FB-F886CFD4190A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B8628A-EF1B-4BA4-88FB-F886CFD4190A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B8628A-EF1B-4BA4-88FB-F886CFD4190A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B8628A-EF1B-4BA4-88FB-F886CFD4190A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

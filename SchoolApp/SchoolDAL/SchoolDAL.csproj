@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CPersonDAL.cs" />
     <Compile Include="Course.cs">
       <DependentUpon>SchoolEDM.tt</DependentUpon>
     </Compile>
@@ -116,6 +116,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolEntities\SchoolEntities.csproj">
+      <Project>{83e8a0d9-c68c-4ebd-8709-364ece4df642}</Project>
+      <Name>SchoolEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
