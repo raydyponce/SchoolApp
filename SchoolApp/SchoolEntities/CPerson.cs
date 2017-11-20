@@ -8,7 +8,7 @@ namespace SchoolEntities
 {
     public class CPerson
     {
-            {
+          
         public int PersonID { get; set; }
         public string LastName { get; set; }
         public string FirstName { get; set; }
@@ -16,4 +16,4 @@ namespace SchoolEntities
         public DateTime EnrollmentDate { set; get; }
     }
 }
-}
+
