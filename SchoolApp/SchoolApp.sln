@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolEntities", "SchoolEntities\SchoolEntities.csproj", "{83E8A0D9-C68C-4EBD-8709-364ECE4DF642}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolDAL", "SchoolDAL\SchoolDAL.csproj", "{03DD9BD8-07AC-4C66-8088-D37F6017EC81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{83E8A0D9-C68C-4EBD-8709-364ECE4DF642}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83E8A0D9-C68C-4EBD-8709-364ECE4DF642}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83E8A0D9-C68C-4EBD-8709-364ECE4DF642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DD9BD8-07AC-4C66-8088-D37F6017EC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DD9BD8-07AC-4C66-8088-D37F6017EC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DD9BD8-07AC-4C66-8088-D37F6017EC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DD9BD8-07AC-4C66-8088-D37F6017EC81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
